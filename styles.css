@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #818fca 0%, #630cb9 100%);
+    background: linear-gradient(135deg, #ff0bbe 0%, #d30a21 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -28,14 +28,14 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #89ef6d;
     margin-bottom: 30px;
     font-size: 24px;
 }
 
 h1 i {
     margin-right: 10px;
-    color: #667eea;
+    color: #89ef6d;
 }
 
 .input-group {
@@ -72,8 +72,8 @@ input:focus, select:focus {
 }
 
 .swap-btn {
-    background: #667eea;
-    color: white;
+    background: #002ae4;
+    color: rgb(90, 239, 90);
     border: none;
     padding: 12px;
     border-radius: 8px;
@@ -97,9 +97,10 @@ input:focus, select:focus {
 }
 
 .result p {
-    color: #555;
+    color: #ff1111;
     margin-bottom: 10px;
-    font-size: 16px;
+    font-size: 20px;
+    
 }
 
 #converted-amount, #exchange-rate {
@@ -110,11 +111,11 @@ input:focus, select:focus {
 .convert-btn {
     width: 100%;
     padding: 15px;
-    background: #667eea;
-    color: white;
+    background: #002fff;
+    color: #89ef6d;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -137,4 +138,7 @@ input:focus, select:focus {
     input, select, .swap-btn {
         padding: 10px;
     }
-} 
+}
+
+
+
